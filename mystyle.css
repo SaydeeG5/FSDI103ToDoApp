@@ -3,37 +3,41 @@
     margin: 0;
     padding: 0;
 }
-
 body {
     background-color: #B2B2B2;
 }
+
 .body2 { 
-    font-family: kalam,sans-serif;
+    font-family: Raleway;
     text-align: center;
     color: #3C4048;
     background-color: #00ABB3;
     border: solid #3C4048 3px;
     margin-top: 5%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 30%;
+    margin-right: 30%;
     padding-bottom: 25%;
 }
 
 h1 {
-    background-color: #EAEAEA;
-    border: solid #3C4048 3px;
-    border-radius: 7px;
-    margin-top: 10%;
+    background-color: #3C4048;
+    color: #EAEAEA;
     display: inline-block;
+    border-radius: 5px;
+    width: 45%;
+    margin-top: 10%;
     padding: 15px; 
 }
 
 h2 {
+    background-color: #EAEAEA;
+    height: 35px;
     text-transform: uppercase;
+    justify-content: center;
     letter-spacing: 2px;
-    margin-top: 50px;
-    font-size: 35px;
-    text-decoration: underline;
+    margin-top: 35px;
+    font-size: 26px;
+    text-decoration: underline;  
 }
 
 input{
@@ -42,19 +46,19 @@ input{
     margin-left: auto;
     margin-right: auto;
     padding: 5px;
-    font-size: 26px;
-    font-family: Kalam;
-    text-align: right;
+    font-size: 20px;
+    font-family: Raleway;
+    text-align: center;
     letter-spacing: 5px;
     border-radius: 5px;
-    width:50%;
+    width:70%;
 }
 
 button { 
-    margin-top: 20px;
-    width: 10%;
-    font-family: Kalam;
-    font-size: 25px;
+    margin-top: 25px;
+    width: 20%;
+    font-family: Raleway;
+    font-size: 20px;
     font-weight: bold;
     background-color: #EAEAEA;
     border-radius: 10px;
@@ -68,10 +72,11 @@ button:hover {
 }
 
 ul {
+    margin-top: 35px;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-    font-size: 35px;
+    font-size: 26px;
 }
 
 p{
