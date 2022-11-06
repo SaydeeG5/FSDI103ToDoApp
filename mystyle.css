@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Merriweather:ital,wght@0,400;0,700;0,900;1,400&family=Pacifico&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #B2B2B2;
+}
+.body2 { 
+    font-family: kalam,sans-serif;
+    text-align: center;
+    color: #3C4048;
+    background-color: #00ABB3;
+    border: solid #3C4048 3px;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 25%;
+}
+
+h1 {
+    background-color: #EAEAEA;
+    border: solid #3C4048 3px;
+    border-radius: 7px;
+    margin-top: 10%;
+    display: inline-block;
+    padding: 15px; 
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+input{
+    background-color: #B2B2B2;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    font-size: 26px;
+    font-family: Kalam;
+    text-align: right;
+    letter-spacing: 5px;
+    border-radius: 5px;
+    width:50%;
+}
+
+button { 
+    margin-top: 20px;
+    width: 10%;
+    font-family: Kalam;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #EAEAEA;
+    border-radius: 10px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3C4048;
+    color: #EAEAEA;
+}
+
+ul {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
+}
+
+p{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+footer { 
+    font-size: 15px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 15px;
+    }
+
+    button {
+        width: 15%;
+        font-size: 15px;
+    }
+    
+    input { 
+        font-size: 15px;
+    }
+
+    ul { 
+        font-size: 25px;
+    }
+}
